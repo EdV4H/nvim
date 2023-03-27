@@ -36,6 +36,9 @@ keymap("n", "<ESC><ESC>", ":<C-u>set nohlsearch<Return>", opts)
 keymap("n", "tt", "<cmd>terminal<Return>", opts)
 keymap("n", "tx", "<cmd>belowright new<Return><cmd>terminal<Return>", opts)
 
+-- Fern
+keymap("n", "<C-n>", ":Fern . -reveal=% -drawer -toggle -width=40<Return>", opts)
+
 -- Terminal --
 
 -- escape from insert on <ESC>

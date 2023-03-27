@@ -4,7 +4,7 @@ return {
     "lambdalisue/fern-git-status.vim",
     "lambdalisue/fern-hijack.vim",
     "lambdalisue/nerdfont.vim",
-    "kyazdani42/nvim-web-devicons",
+    "nvim-tree/nvim-web-devicons",
     "lambdalisue/fern-renderer-nerdfont.vim",
     "lambdalisue/glyph-palette.vim",
   },
