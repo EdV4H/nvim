@@ -1,0 +1,6 @@
+{
+  "coc.nvim": { "branch": "release", "commit": "bbaa1d5d1ff3cbd9d26bb37cfda1a990494c4043" },
+  "everforest": { "branch": "master", "commit": "2bb00fed357891e37a2f1313cd77e008ad353006" },
+  "git.nvim": { "branch": "main", "commit": "19a229de4a6ed4d201b36b596de63fb7f7d55eda" },
+  "lazy.nvim": { "branch": "main", "commit": "57cce98dfdb2f2dd05a0567d89811e6d0505e13b" }
+}
