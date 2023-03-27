@@ -22,6 +22,7 @@ local options = {
 	signcolumn = "yes",
   wrap = false,
   winblend = 5, -- フロートウィンドウなどの透明度
+  laststatus = 3, -- Always show statusline at the bottom
 }
 
 for key, value in pairs(options) do
