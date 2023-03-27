@@ -7,6 +7,16 @@ autocmd("TermOpen", {
   command = ":startinsert"
 })
 
+-- Hide row number on terminal mode
+autocmd("TermOpen", {
+  pattern = "*",
+  command = "setlocal nonumber"
+})
+autocmd("TermOpen", {
+  pattern = "*",
+  command = "setlocal norelativenumber"
+})
+
 -- Colored icon
 augroup("my-glyph-palette", { clear = true })
 autocmd("FileType", {
