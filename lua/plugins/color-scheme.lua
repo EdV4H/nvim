@@ -1,3 +1,9 @@
 return {
-  "sainnhe/everforest"
+  "sainnhe/everforest",
+  {
+    "2nthony/vitesse.nvim",
+    dependencies = {
+      "tjdevries/colorbuddy.nvim"
+    }
+  },
 }

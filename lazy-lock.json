@@ -1,6 +1,16 @@
 {
   "coc.nvim": { "branch": "release", "commit": "bbaa1d5d1ff3cbd9d26bb37cfda1a990494c4043" },
+  "colorbuddy.nvim": { "branch": "master", "commit": "cdb5b0654d3cafe61d2a845e15b2b4b0e78e752a" },
   "everforest": { "branch": "master", "commit": "2bb00fed357891e37a2f1313cd77e008ad353006" },
+  "fern-git-status.vim": { "branch": "master", "commit": "151336335d3b6975153dad77e60049ca7111da8e" },
+  "fern-hijack.vim": { "branch": "master", "commit": "5989a1ac6ddffd0fe49631826b6743b129992b32" },
+  "fern-renderer-nerdfont.vim": { "branch": "master", "commit": "1e90a78ab5510fbcedc85abeb9a251d978726935" },
+  "fern.vim": { "branch": "main", "commit": "dae5eb2debe023fce0e3dfafbf879bd89946d6d0" },
   "git.nvim": { "branch": "main", "commit": "19a229de4a6ed4d201b36b596de63fb7f7d55eda" },
-  "lazy.nvim": { "branch": "main", "commit": "57cce98dfdb2f2dd05a0567d89811e6d0505e13b" }
+  "gitsigns.nvim": { "branch": "main", "commit": "ca473e28382f1524aa3d2b6f04bcf54f2e6a64cb" },
+  "glyph-palette.vim": { "branch": "master", "commit": "c9b21e745b4fc11c410afbf4aa9dbe938c3d09c0" },
+  "lazy.nvim": { "branch": "main", "commit": "57cce98dfdb2f2dd05a0567d89811e6d0505e13b" },
+  "nerdfont.vim": { "branch": "master", "commit": "3daf10116daad5da257486c9043c658cced4dd31" },
+  "nvim-web-devicons": { "branch": "master", "commit": "95b1e300699be8eb6b5be1758a9d4d69fe93cc7f" },
+  "vitesse.nvim": { "branch": "main", "commit": "9da8573e7790a25ff62411c7f4c5218df305aff2" }
 }
