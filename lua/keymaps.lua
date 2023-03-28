@@ -19,6 +19,9 @@ vim.g.maplocalleader = " "
 
 -- Normal --
 
+-- ';' alternate ':'
+keymap("n", ";", ":", opts)
+
 -- Split window
 keymap("n", "ss", ":split<Return><C-w>w", opts)
 keymap("n", "sv", ":vsplit<Return><C-w>w", opts)
