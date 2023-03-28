@@ -13,6 +13,9 @@
   "lazy.nvim": { "branch": "main", "commit": "57cce98dfdb2f2dd05a0567d89811e6d0505e13b" },
   "lualine.nvim": { "branch": "master", "commit": "e99d733e0213ceb8f548ae6551b04ae32e590c80" },
   "nerdfont.vim": { "branch": "master", "commit": "3daf10116daad5da257486c9043c658cced4dd31" },
-  "nvim-web-devicons": { "branch": "master", "commit": "95b1e300699be8eb6b5be1758a9d4d69fe93cc7f" },
+  "nvim-treesitter": { "branch": "master", "commit": "5a7a2ad172bcc40c53aa274dff05aacb5074b509" },
+  "nvim-web-devicons": { "branch": "master", "commit": "267af2d57e0f251d65b95bdfd1f382211b272417" },
+  "plenary.nvim": { "branch": "master", "commit": "253d34830709d690f013daf2853a9d21ad7accab" },
+  "telescope.nvim": { "branch": "master", "commit": "c1a2af0af69e80e14e6b226d3957a064cd080805" },
   "vitesse.nvim": { "branch": "main", "commit": "9da8573e7790a25ff62411c7f4c5218df305aff2" }
 }
