@@ -24,3 +24,4 @@ autocmd("FileType", {
   pattern = "fern",
   command = "call glyph_palette#apply()",
 })
+
