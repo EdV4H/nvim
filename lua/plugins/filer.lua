@@ -13,6 +13,13 @@ return {
     vim.g["fern#renderer"] = "nvim-web-devicons"
   end,
   config = function()
+    -- Keymap
+    local opts = { noremap = true, silent = true }
+
+    vim.keymap.set("n", "<leadner>e", "<cmd>Fern .<Return>", opts)
+    vim.keymap.set("n", "<leadner>E", "<cmd>Fern . -reveal=%<Return>", opts)
+
+    -- Icon color
     vim.g["glyph_palette#palette"] = require("fr-web-icons").palette()
   end,
 }
