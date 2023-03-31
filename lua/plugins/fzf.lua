@@ -9,10 +9,6 @@ return {
       require("telescope").setup({
         defaults = {
           winblend = 5,
-          file_ignore_patterns = {
-            "^.git/",
-            "^node_modules/",
-          },
         },
         extensions = {
           coc = {

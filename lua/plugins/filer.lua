@@ -10,6 +10,7 @@ return {
     "lambdalisue/glyph-palette.vim",
   },
   init = function()
+    vim.g["fern#default_hidden"] = 1
     vim.g["fern#renderer"] = "nvim-web-devicons"
   end,
   config = function()
