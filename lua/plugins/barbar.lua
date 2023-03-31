@@ -10,7 +10,7 @@ return {
     keymap("n", "<C-k>", "<Cmd>BufferNext<Return>", opts)
 
     -- Close buffer
-    keymap("n", "<leader>e", "<Cmd>BufferClose<Return>", opts)
+    keymap("n", "<leader>t", "<Cmd>BufferClose<Return>", opts)
   end,
 }
 

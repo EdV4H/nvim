@@ -1,5 +1,6 @@
 return {
   "sainnhe/everforest",
+  "Mofiqul/dracula.nvim",
   {
     "2nthony/vitesse.nvim",
     dependencies = {
