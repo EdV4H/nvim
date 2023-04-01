@@ -35,10 +35,6 @@ keymap("n", "sl", "<C-w>l", opts)
 -- nohlsearch on ESC*2
 keymap("n", "<ESC><ESC>", ":<C-u>set nohlsearch<Return>", opts)
 
--- Execute terminal
-keymap("n", "tt", "<cmd>terminal<Return>", opts)
-keymap("n", "tx", "<cmd>belowright new<Return><cmd>terminal<Return>", opts)
-
 -- Fern
 keymap("n", "<C-n>", ":Fern . -reveal=% -drawer -toggle -width=40<Return>", opts)
 
