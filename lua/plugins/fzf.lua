@@ -32,6 +32,8 @@ return {
       local coc_opts = { silent = true }
       vim.keymap.set("n", "gd", "<cmd>Telescope coc definitions<Return>", coc_opts)
       vim.keymap.set("n", "gy", "<cmd>Telescope coc type_definitions<Return>", coc_opts)
+      vim.keymap.set("n", "gi", "<cmd>Telescope coc implementations<Return>", coc_opts)
+      vim.keymap.set("n", "gr", "<cmd>Telescope coc references<Return>", coc_opts)
       vim.keymap.set("n", "<leader>d", "<cmd>Telescope coc diagnostics<Return>", coc_opts)
     end,
   },
