@@ -4,6 +4,8 @@ return {
   config = function()
     require("toggleterm").setup({
       open_mapping = [[tt]],
+      insert_mappings = false,
+      terminal_mappings = false,
     })
 
     -- lazygit
